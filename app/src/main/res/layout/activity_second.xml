@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6b656b"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btnmove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:text="Firstpage"
+        android:textColor="#e7eded"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="75dp"
+        android:text="call" />
+
+    <Button
+        android:id="@+id/btnsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btncall"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:text="sms" />
+
+    <Button
+        android:id="@+id/btncamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmove"
+        android:layout_alignStart="@+id/btncall"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="254dp"
+        android:text="camera" />
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btncall"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:text="share" />
+
+    <Button
+        android:id="@+id/btnmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btncall"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="240dp"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/btndial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnshare"
+        android:layout_alignTop="@+id/btnsms"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:text="Dial" />
+
+    <Button
+        android:id="@+id/btnmpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsms"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="-281dp"
+        android:layout_toEndOf="@+id/btnmove"
+        android:text="mpesa" />
+</RelativeLayout>
